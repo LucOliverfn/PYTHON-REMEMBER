@@ -3,8 +3,8 @@ def dobra(lista):
     while pos<len(lista):
         lista[pos]*=2
         pos+=1
-    print(lista)
-    print('FIM')
+    return(lista)
 
 val =[1,2,3,4,5,6]
-dobra(val)
+dobro = dobra(val)
+print (dobro)
